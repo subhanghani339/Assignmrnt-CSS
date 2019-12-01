@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div class="one">
+        <br>
+        <p>Let us know how we can improve freeCodeCamp</p>
+
+        <form action="">
+
+        <label id="name">*Name:
+            <input type="text" name="usernname" required>
+        </label>
+        <br><br>
+
+        <label id="email" required>*Email:
+            <input type="email" name="email">
+        </label>
+        <br><br>
+
+        <label id="age" required>*Age:
+            <input type="number" name="age">
+        </label>
+        <br><br>
+
+        <label id="current-role">Which option best describes your curent role?:
+            <select>
+                <option value="Student">Student</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Postgraduate">Postgraduate</option>
+                <option value="Other" selected>Other</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label id="recommend">*How likely is that you would recommend freeCodeCamp to a friend?
+
+            <input type="radio" value="Definetly" id="rd1">Definetly <br>
+            <input type="radio" value="May be" id="rd2">May be <br>
+            <input type="radio" value="Not Sure" id="rd3">Not Sure 
+        </label>
+        <br><br>
+
+        <label id="FCC">What do ypu like most in FCC?
+            <select>
+                <option value="Select an option" selected>Select an option</option>
+                <option value="Nothing"Nothing>Nothing</option>
+                <option value="Everything">Everything</option>
+            </select>
+        </label>
+        <br><br>
+
+        <label id="future">Things that shpuld be improved in the future
+               (Check all that apply):
+               
+               <input type="checkbox" value="Front End Projects" id="check1">Front End Projects <br>
+               <input type="checkbox" value="Back End Projects" id="check2">Back End Projects <br>
+               <input type="checkbox" value="Data Visualization" id="check3">Data Visualization
+        </label>
+        <br><br><br>
+        </form>
+    </div>
+</body>
+</html>

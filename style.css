@@ -1,0 +1,52 @@
+*{
+    text-decoration: m;
+}
+
+body{
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.one{
+    background-color: white;
+}
+
+h1{
+    margin-left: 450px;
+}
+
+p{
+    margin-left: 400px;
+}
+
+#name,#email{
+    margin-left: 430px;
+}
+
+#age{
+    margin-left: 441px;
+}
+
+#current-role{
+    margin-left: 180px;
+}
+
+#recommend{
+    margin-left: 23px;
+}
+
+#rd2,#rd3{
+    margin-left: 482px;
+}
+
+#FCC{
+    margin-left: 272px;
+}
+
+#future{
+    margin-left: 39px;
+}
+
+#check2,#check3{
+    margin-left: 480px;
+}
